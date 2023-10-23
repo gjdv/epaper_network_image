@@ -8,6 +8,8 @@ My goal was to write a WIFI client on the ESP32 that retrieves a picture from a 
 
 The WIFI demo of the ESP32 driver board seemed a good start, but didn't work correctly for my version of the e-Paper. Also, the protocol used for sending/receiving images over WIFI was unnecessarily complicated for my use. Hence, I created a custom file format, a python script to convert images to this format, and a client application to display (and refresh) the image on the e-Paper.
 
+## Sources
+
 ### Hardware
 * https://www.waveshare.com/wiki/7.5inch_e-Paper_HAT_(B)_Manual
 * https://www.waveshare.com/wiki/E-Paper_ESP32_Driver_Board
