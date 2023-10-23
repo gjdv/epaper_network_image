@@ -1,8 +1,8 @@
 # e-Paper network image
-ESP32 / Arduino application to retrieve an image from the network/web and repeatedly refresh. 
+ESP32 / Arduino application to retrieve an image from the network/web and repeatedly refresh on a Waveshare e-Paper. 
 
 ## Introduction
-Following the instructions on the pages listed under 'Hardware', I managed to get some functionality working, but not all on my 7.5inch(B) V3 version of the e-Paper.
+Following the instructions on the pages listed under ['Hardware'](#hardware), I managed to get some functionality working, but not all on my 7.5inch(B) V3 version of the e-Paper.
 
 My goal was to write a WIFI client on the ESP32 that retrieves a picture from a web location (that I generate / update using a separate device) and displays it, goes to sleep for a given interval, and repeatedly wakes up to refresh the image.
 
